@@ -1,0 +1,29 @@
+digraph G {
+rankdir=BT;
+1007686688 [label="+", shape=oval];
+1005254512 -> 1007686688;
+1023882608 -> 1007686688;
+1013530496 [color="#eeeeee", label="3 x 1", shape=rectangle, style=filled];
+1022128688:f0 -> 1013530496;
+1017340416 [color="#009900", label=0, shape=rectangle];
+127244377819776 [label=<<TABLE BORDER="0" CELLBORDER="1" CELLSPACING="0" COLOR="#009900"><TR><TD COLSPAN='0'><font color='#666666'>0x0</font></TD></TR></TABLE>>, shape=plaintext];
+1023882608 -> funinput1022128688:f0  [rankdir=LR];
+1002363280 -> funinput1022128688:f1  [rankdir=LR];
+1017340416 -> funinput1022128688:f2  [rankdir=LR];
+1027320240 -> funinput1022128688:f3  [rankdir=LR];
+127244377819776 -> funinput1022128688:f4  [rankdir=LR];
+127244377819776 -> funinput1022128688:f5  [rankdir=LR];
+127244377819776 -> funinput1022128688:f6  [rankdir=LR];
+subgraph cluster_1022128688 {
+label="Function:\n Phi";
+rank=max;
+funinput1022128688 [label=" 7 inputs: |<f0> 0 | <f1> 1 | <f2> 2 | <f3> 3 | <f4> 4 | <f5> 5 | <f6> 6", shape=Mrecord];
+1022128688 [label=" 7 outputs: |<f0> 0 | <f1> 1 | <f2> 2 | <f3> 3 | <f4> 4 | <f5> 5 | <f6> 6", shape=Mrecord];
+}
+
+1005254512 [label="sin(.)", shape=oval];
+1013530496 -> 1005254512;
+1023882608 [label=<<TABLE BORDER="0" CELLBORDER="1" CELLSPACING="0" COLOR="#990000"><TR><TD COLSPAN='1'>x: <font color='#666666'>3x1</font></TD></TR><TR><TD PORT='f0' BGCOLOR='#eeeeee'> <font color='#666666'>(0,0 | 0)</font> </TD></TR><TR><TD PORT='f1' BGCOLOR='#eeeeee'> <font color='#666666'>(1,0 | 1)</font> </TD></TR><TR><TD PORT='f2' BGCOLOR='#eeeeee'> <font color='#666666'>(2,0 | 2)</font> </TD></TR></TABLE>>, shape=plaintext];
+1002363280 [label=<<TABLE BORDER="0" CELLBORDER="1" CELLSPACING="0" COLOR="#009900"><TR><TD COLSPAN='1'><font color='#666666'>0x1</font></TD></TR></TABLE>>, shape=plaintext];
+1027320240 [label=<<TABLE BORDER="0" CELLBORDER="1" CELLSPACING="0" COLOR="#009900"><TR><TD COLSPAN='1'><font color='#666666'>0x1</font></TD></TR></TABLE>>, shape=plaintext];
+}
