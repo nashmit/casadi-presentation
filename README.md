@@ -9,7 +9,7 @@ This repository contains my presentation of CasADi. Inside you can find 3 Jupyte
   - Containing an introduction to CasADi as a mathematical modeling tool.
     
 -**Parametric Estimation.ipynb**
-  - It contains a parametric estimation implementation. As an example, this notebook reproduces Bock's article that introduces multiple shootings. (*Recent Progress in the Development of Algorithms and Software for Large Scale Parameter Estimation Problems in Chemical Reaction Systems - Bock, Schlöder, 1986*)
+  - It contains a parametric estimation implementation. This notebook reproduces Bock's article that introduces multiple shootings. (*Recent Progress in the Development of Algorithms and Software for Large Scale Parameter Estimation Problems in Chemical Reaction Systems - Bock, Schlöder, 1986*)
 
 
 Installation:
