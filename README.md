@@ -16,5 +16,6 @@ Installation:
 ```
 conda create --name <environment_name> --file requirements.txt
 conda activate <environment_name>
+jupyter-lab
 ```
 
