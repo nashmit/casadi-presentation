@@ -12,8 +12,9 @@ This repository contains my presentation of CasADi. Inside you can find 3 Jupyte
   - It contains a parametric estimation implementation. This notebook reproduces Bock's article that introduces multiple shootings. (*Recent Progress in the Development of Algorithms and Software for Large Scale Parameter Estimation Problems in Chemical Reaction Systems - Bock, Schlöder, 1986*)
 
 
-Installation:
+Installation & run:
 ```
+git clone git@github.com:nashmit/casadi-presentation.git
 conda create --name <environment_name> --file requirements.txt
 conda activate <environment_name>
 jupyter-lab
